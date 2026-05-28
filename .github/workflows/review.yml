@@ -1,0 +1,28 @@
+name: review ~~~
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  job01:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step01
+        run: echo "step01 in job01 run ~~~"
+  job02:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step02
+        run: echo "step01 in job02 run ~~~"
+  job03:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step03
+        run: echo "step01 in job03 run ~~~"
+  job99:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step
+        run: echo "step01 in job099 run ~~~"
